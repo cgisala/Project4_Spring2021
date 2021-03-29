@@ -1,6 +1,6 @@
 # This program selects the best alcoholic drink that goes with your food
 import cocktail, beer, wine
-from alcohol import Cocktail, Food_Alcohol, Beer, Wine, Pairings
+from alcohol import Cocktail, Food_Alcohol, Beer, Wine
 import os
 import sqlite3
 
@@ -60,7 +60,7 @@ def show_pairings():
 
     print('\nFor each food, the following drinks are suggested')
     for r in rows:
-        print(f"\nFor {r['food']}, the following drinks a suggested:\n"
+        print(f"\nFor {r['food']}, the following drinks are suggested:\n"
         f"Cocktail: {r['cocktail']}\n"
         f"Beer: {r['beer']}\n"
         f"Wine: {r['wine']}\n")
