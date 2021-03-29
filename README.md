@@ -9,8 +9,8 @@ clone the directory:
 In the terminal or cmd type:
 git clone https://github.com/cgisala/Project4_Spring2021
 
-Pictures
-!foodpairings1.png(https://images/foodpairings1.png)
-!foodpairings2.png(https://images/foodpairings2.png)
+<h2>Pictures</h2>
+<img title="Food Pairings1" alt="Food Pairings1" src="images/foodpairings1.png">
+<img title="Food Pairings1" alt="Food Pairings2" src="images/foodpairings2.png">
 
 
